@@ -29,7 +29,7 @@ section#dispositivo {
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../imagens/celular.png');
-    width: 450px;
+    width: 400px;
     height: 350px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.466);
@@ -38,10 +38,10 @@ section#dispositivo {
 
 iframe#tela {
     position: relative;
-    width: 392px;
+    width: 354px;
     height: 322px;
     top: 14px;
-    left: 29px;
+    left: 20px;
 }
 
 section#linguagem {
@@ -74,7 +74,7 @@ section#linguagem img:hover {
         background-image: url('../imagens/tablet.png');
         width: 600px;
         height: 425px;
-
+        transform: translate(-50%, -60%);
     }
 
     iframe#tela {
@@ -85,15 +85,14 @@ section#linguagem img:hover {
         left: 24px;
     }
 
-    section#linguagem {
-        bottom: 10px;
+    /* section#linguagem {
         width: 410px;
         height: 90px;
     }
-    
+
     section#linguagem img {
         width: 50px;
-    }
+    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -101,6 +100,7 @@ section#linguagem img:hover {
         background-image: url('../imagens/monitor.png');
         width: 717px;
         height: 508px;
+        transform: translate(-50%, -59%);
     }
 
     iframe#tela {
@@ -110,15 +110,14 @@ section#linguagem img:hover {
         top: 32px;
         left: 28px;
     }
-    
-    section#linguagem {
-        bottom: 20px;
+
+    /* section#linguagem {
         width: 410px;
         height: 90px;
     }
 
     section#linguagem img {
         width: 50px;
-    }
-    
+    } */
+
 }
