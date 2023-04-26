@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('../imagens/fundo.jpg');
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#dispositivo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../imagens/celular.png');
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.466);
+}
+
+
+iframe#tela {
+    position: relative;
+    width: 392px;
+    height: 322px;
+    top: 14px;
+    left: 29px;
+}
+
+section#linguagem {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #000;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    border-radius: 10px;
+    border: 10px solid #1C1A1B;
+}
+
+section#linguagem img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 40px;
+}
+
+section#linguagem img:hover {
+    cursor: pointer;
+    border: 3px solid #9AB7BF;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    section#dispositivo {
+        background-image: url('../imagens/tablet.png');
+        width: 600px;
+        height: 425px;
+
+    }
+
+    iframe#tela {
+        position: relative;
+        width: 552px;
+        height: 354px;
+        top: 26px;
+        left: 24px;
+    }
+
+    section#linguagem {
+        bottom: 10px;
+        width: 410px;
+        height: 90px;
+    }
+    
+    section#linguagem img {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section#dispositivo {
+        background-image: url('../imagens/monitor.png');
+        width: 717px;
+        height: 508px;
+    }
+
+    iframe#tela {
+        position: relative;
+        width: 661px;
+        height: 421px;
+        top: 32px;
+        left: 28px;
+    }
+    
+    section#linguagem {
+        bottom: 20px;
+        width: 410px;
+        height: 90px;
+    }
+
+    section#linguagem img {
+        width: 50px;
+    }
+    
+}
