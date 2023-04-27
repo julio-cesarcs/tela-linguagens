@@ -15,6 +15,7 @@ body {
 body {
     background-image: url('../imagens/fundo.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -43,13 +44,13 @@ iframe#tela {
     position: relative;
     width: 354px;
     height: 322px;
-    top: 14px;
+    top: 13px;
     left: 20px;
 }
 
 section#linguagem {
     position: absolute;
-    bottom: 10px;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, 0);
     background-color: #000;
@@ -77,7 +78,7 @@ section#linguagem img:hover {
         background-image: url('../imagens/tablet.png');
         width: 600px;
         height: 425px;
-        transform: translate(-50%, -60%);
+        transform: translate(-50%, -50%);
     }
 
     iframe#tela {
@@ -87,15 +88,6 @@ section#linguagem img:hover {
         top: 26px;
         left: 24px;
     }
-
-    /* section#linguagem {
-        width: 410px;
-        height: 90px;
-    }
-
-    section#linguagem img {
-        width: 50px;
-    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -103,7 +95,7 @@ section#linguagem img:hover {
         background-image: url('../imagens/monitor.png');
         width: 717px;
         height: 508px;
-        transform: translate(-50%, -59%);
+        transform: translate(-50%, -50%);
     }
 
     iframe#tela {
@@ -113,14 +105,4 @@ section#linguagem img:hover {
         top: 32px;
         left: 28px;
     }
-
-    /* section#linguagem {
-        width: 410px;
-        height: 90px;
-    }
-
-    section#linguagem img {
-        width: 50px;
-    } */
-
 }
