@@ -42,10 +42,10 @@ section#dispositivo {
 
 iframe#tela {
     position: relative;
-    width: 354px;
-    height: 322px;
+    width: 348px;
+    height: 323px;
     top: 13px;
-    left: 20px;
+    left: 26px;
 }
 
 section#linguagem {
