@@ -43,9 +43,9 @@ section#dispositivo {
 iframe#tela {
     position: relative;
     width: 348px;
-    height: 323px;
+    height: 324px;
     top: 13px;
-    left: 26px;
+    left: 25px;
 }
 
 section#linguagem {
