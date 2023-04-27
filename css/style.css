@@ -77,15 +77,15 @@ section#linguagem img:hover {
     section#dispositivo {
         background-image: url('../imagens/tablet.png');
         width: 600px;
-        height: 425px;
+        height: 400px;
         transform: translate(-50%, -50%);
     }
 
     iframe#tela {
         position: relative;
         width: 552px;
-        height: 354px;
-        top: 26px;
+        height: 332px;
+        top: 25px;
         left: 24px;
     }
 }
@@ -94,15 +94,15 @@ section#linguagem img:hover {
     section#dispositivo {
         background-image: url('../imagens/monitor.png');
         width: 717px;
-        height: 508px;
+        height: 420px;
         transform: translate(-50%, -50%);
     }
 
     iframe#tela {
         position: relative;
         width: 661px;
-        height: 421px;
-        top: 32px;
+        height: 348px;
+        top: 26px;
         left: 28px;
     }
 }
