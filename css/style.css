@@ -50,7 +50,7 @@ iframe#tela {
 
 section#linguagem {
     position: absolute;
-    bottom: 10%;
+    bottom: 5px;
     left: 50%;
     transform: translate(-50%, 0);
     background-color: #000;
